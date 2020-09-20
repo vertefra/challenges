@@ -1,0 +1,16 @@
+{
+  "name": "d05_New_Year_Chaos_Javascript",
+  "version": "1.0.0",
+  "description": "t's New Year's Day and everyone's in line for the Wonderland rollercoaster ride! There are a number of people queued up, and each person wears a sticker indicating their initial position in the queue. Initial positions increment by **1** from **1** at the front of the line to **n** at the back.",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
