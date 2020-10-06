@@ -10,7 +10,7 @@ def arrayManipulation(n, queries):
         a, b, k = query
         for key in range(a, b+1):
             hash[key] += k
-    return max(hash.values())
+    return
 
 
-print(arrayManipulation(10, query))
+arrayManipulation(10, query)
