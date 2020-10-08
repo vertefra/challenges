@@ -1,0 +1,16 @@
+{
+  "name": "13_reverse_string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
