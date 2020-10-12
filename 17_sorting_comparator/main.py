@@ -16,3 +16,6 @@ class Player:
             return 1
         elif (a.score > b.score):
             return -1
+
+    def __repr__(self):
+        return f"{self.name} : {self.score}"
