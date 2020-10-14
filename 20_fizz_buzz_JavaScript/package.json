@@ -1,0 +1,15 @@
+{
+  "name": "20_fizz_buzz_JavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.5.3"
+  }
+}
