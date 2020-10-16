@@ -1,0 +1,12 @@
+{
+  "name": "23_anagrams_JavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest test.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
