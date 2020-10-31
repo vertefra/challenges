@@ -1,0 +1,13 @@
+{
+  "name": "29_fibonacci_JavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest test.js --all --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
