@@ -32,7 +32,7 @@ def make_anagrams(a: str, b: str) -> int:
 
     for k in a_map:
         if k not in b_map.keys():
-            count += 1
+            count += a_map[k]
         elif a_map[k] > b_map[k]:
             # case has one letter present with more frequency than string b
             # add to the count the difference
@@ -40,7 +40,7 @@ def make_anagrams(a: str, b: str) -> int:
 
     for k in b_map:
         if k not in a_map.keys():
-            count += 1
+            count += b_map[k]
         elif b_map[k] > a_map[k]:
             # case has one letter present with more frequency than string a
             # add to the count the difference
