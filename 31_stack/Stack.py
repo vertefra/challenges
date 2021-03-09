@@ -14,8 +14,9 @@ class Stack():
         self.tail: Record = None
         self.current: Record = None
         self.length: int = 0
+
     def push(self, v: Any) -> None:
-        
+
         r = Record(v)
 
         if self.head is None:
@@ -35,7 +36,6 @@ class Stack():
         self.length -= 1
 
         return popped
-
 
     def __repr__(self) -> str:
         self.current = self.head
@@ -59,9 +59,9 @@ class Queue():
         while self.stack_1.length != 0:
             v = self.stack_1.pop()
             self.stack_2.push(v)
-        
+
         popped = self.stack_2.pop()
-        
+
         while self.stack_2.length != 0:
             v = self.stack_2.pop()
             self.stack_1.push(v)
@@ -69,7 +69,6 @@ class Queue():
 
     def __repr__(self) -> str:
         return f"<{self.stack_1}>"
-
 
 
 def main() -> None:
@@ -91,4 +90,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
