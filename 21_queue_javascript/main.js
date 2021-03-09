@@ -16,6 +16,15 @@ class Queue {
 		this.head = head;
 	}
 
+	print() {
+		let current = this.head;
+
+		while (current.next) {
+			current = current.next;
+			console.log(current.data);
+		}
+	}
+
 	add(node) {
 		const swapVar = this.head;
 		this.head = node;
@@ -32,8 +41,14 @@ class Queue {
 }
 
 const head = new Node(1);
-const node2 = new Node(2);
 const q = new Queue(head);
+
+for (let i = 1; i < 100; i++) {
+	const n = new Node(i);
+	q.add(n);
+}
+
+q.print();
 
 q.add(node2);
 q.remove();
